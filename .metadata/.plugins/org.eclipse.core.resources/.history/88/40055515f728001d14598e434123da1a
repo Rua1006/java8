@@ -1,0 +1,10 @@
+package sec1;
+
+//메인클래스
+public class Ex1 {
+
+	public static void main(String[] args) {
+		System.out.println("하이~! 자바~!");
+		
+	}
+}

@@ -1,0 +1,6 @@
+package sec1;
+
+public class Ex3 {
+	private String name;
+	final static double PI = 3.14;
+}
