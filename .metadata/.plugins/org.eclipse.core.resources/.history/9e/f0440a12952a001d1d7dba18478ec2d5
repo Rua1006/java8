@@ -1,0 +1,18 @@
+package sec2;
+
+public class Cast2 {
+
+	public static void main(String[] args) {
+		int a=100, b=23, c;
+		float d, e, f;
+		c = a / b;		//4 -> 자동 형 변환
+		System.out.println("c="+c);
+		d = (float)a / b;		//4.0 -> 자동 형 변환  (float)추가 시 그 값을 무조건으로 나옴
+		System.out.println("d="+d);
+		e = 500 / 3.0f;			//정수를 연수할 경우 실수를 만들어줘야 한다. 숫자뒤에 f붙이면됨 3->3.0f로 형 변환 연산 
+		System.out.println("e="+e);
+		System.out.println("byte : "+Byte.MIN_VALUE+"~"+Byte.MAX_VALUE);
+		System.out.println("short : "+Short.MIN_VALUE+"~"+Short.MAX_VALUE);
+	}
+
+}

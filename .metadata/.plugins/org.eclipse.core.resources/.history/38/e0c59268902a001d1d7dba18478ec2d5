@@ -1,0 +1,8 @@
+package sec2;
+
+public class Cast1 {
+	public static void main{String[] args) {
+		int a=1004, b; //4byte
+		short c, d; //2byte
+		 
+}

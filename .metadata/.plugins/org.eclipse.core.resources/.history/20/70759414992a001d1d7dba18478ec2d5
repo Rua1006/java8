@@ -1,0 +1,14 @@
+package sec3;
+
+public class print2 {
+
+	public static void main(String[] args) {
+		int a=100;
+		float b=3.14f;
+		String c="kang";
+		System.out.printf("반지름이 %d인 원주율 %f를 반영하여 원의 넓이가 %f 임. %s의 규칙");
+		System.out.printf("");
+
+	}
+
+}
