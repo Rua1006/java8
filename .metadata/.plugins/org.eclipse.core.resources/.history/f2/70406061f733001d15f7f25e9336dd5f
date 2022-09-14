@@ -1,0 +1,12 @@
+package sec3;
+
+import java.util.Scanner;
+
+public class Loop2 {
+
+	public static void main(String[] args) {
+		int jum [] = {80, 90, 75, 80, 65};
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

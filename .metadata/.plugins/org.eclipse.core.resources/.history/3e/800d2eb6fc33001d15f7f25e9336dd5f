@@ -1,0 +1,9 @@
+package sec3;
+
+public class Loop4 {
+
+	public static void main(String[] args) {
+		//무한 루프 : 조건이 항상 맞으면 계속 반복수행
+	}
+
+}
