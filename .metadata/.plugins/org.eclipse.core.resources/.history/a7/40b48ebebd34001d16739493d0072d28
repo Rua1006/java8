@@ -1,0 +1,11 @@
+package sec4;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+	 
+		int num=(int)(Math.random()*6);
+
+	}
+
+}
