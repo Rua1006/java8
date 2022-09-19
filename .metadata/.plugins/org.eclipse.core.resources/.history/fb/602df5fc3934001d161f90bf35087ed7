@@ -1,0 +1,13 @@
+package sec3;
+
+public class Loopin {
+	static int o=0;
+	public static void main(String[] args) {
+		for(int i=1; i<=100; i*=3){
+			if(1%2==1) continue;
+			o+=i;
+			System.out.println(""+o);
+		}
+	}
+
+}

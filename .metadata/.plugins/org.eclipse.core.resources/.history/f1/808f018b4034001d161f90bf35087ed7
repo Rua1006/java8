@@ -1,0 +1,13 @@
+package sec3;
+
+import java.util.Scanner;
+
+public class Loopin {
+
+	public static void main(String[] args) {
+	for(int a=*; ){
+		
+	}
+	
+	}
+	}
