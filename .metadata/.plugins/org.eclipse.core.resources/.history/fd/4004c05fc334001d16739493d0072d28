@@ -1,0 +1,15 @@
+package sec4;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+	 boolean run=true;
+	
+		int a=(int)(Math.random()*6)+1;
+		int b=(int)(Math.random()*6);
+		System.out.println("("+a+","+b+")");
+		while(a+b==5){
+	 run=false;
+	}
+}
+}
