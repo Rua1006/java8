@@ -1,0 +1,18 @@
+package sec1;
+
+//import 파일명; : 불러올수있음
+
+
+//public : 현재 프로젝트내에서 다른 패키지에서도 접근 가능
+//default : 접근 제한자를 생략했을 경우이며,같은 패키지 내에서 접근 가능
+//private : 현재 클래스 내부에서만 접근 가능
+
+public class Member {				//하나의 파일 안에 여러개의 클래스가 있을 수 있다
+	String id;						//클래스의 멤버 필드	
+	String password;
+	String name;
+	String address;
+	String tel;
+	String reg_date;
+	
+}
