@@ -1,0 +1,25 @@
+package sec2;
+
+public class StudentEx {
+
+	public static void main(String[] args) {
+		Student studen1 = new Student();
+		studen1.setKor(70);
+		studen1.setEng(60);
+		studen1.setMat(90);
+
+		
+		int a=studen1.calcTot();
+		System.out.println("점수합계 :"+a);
+		
+		int b=studen1.calcAvg();
+		System.out.println("점수평균 :"+b);
+		
+		String c=studen1.calcHak();
+		System.out.println("학점 :"+c);
+		
+		String d=studen1.calcRes();
+		System.out.println("판정 :"+d);
+	}
+
+}
