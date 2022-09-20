@@ -16,8 +16,8 @@ public class MemberEx {
 		System.out.println("아이디 : "+mem2.getId());
 		System.out.println("비밀번호 : "+mem2.getPassword());
 		
-		Member mem3 = new Member("","");
-		Member mem4 = new Member("1","2","3");
+		Member mem3 = new Member("k","k");
+		Member mem4 = new Member("k","b","s","t");
 		System.out.println("당신의 아이디: "+mem3.getId());
 		System.out.println("당신의 주소: "+mem4.getAddress());
 		

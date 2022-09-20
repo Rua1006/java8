@@ -1,0 +1,9 @@
+package sec2;
+
+public class StudentEx {
+
+	public static void main(String[] args) {
+		Student studen1 = new Student
+	}
+
+}
