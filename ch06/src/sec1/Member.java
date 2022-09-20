@@ -22,8 +22,19 @@ public class Member {				//하나의 파일 안에 여러개의 클래스가 있
 	public Member(String id, String password){
 		this.id = id;
 		this.password = password;
+	
 	}
 		
+	
+	
+	
+	public Member(String id, String password, String name) {
+		super();
+		this.id = id;
+		this.password = password;
+		this.name = name;
+	}
+
 	public Member(String id, String password, String name, String address) {
 		this.id = id;
 		this.password = password;
@@ -33,13 +44,6 @@ public class Member {				//하나의 파일 안에 여러개의 클래스가 있
 	
 	}
 	
-	public Member(String id, String password, String name, String address,String tel) {
-		this.id = id;
-		this.password = password;
-		this.name = name;
-		this.address = address;
-		this.tel = tel;
-	}
 
 	//접근제한자 반환타입 메서드명([매개변수타입 매개변수명, ....]) {	return 반환변수명 | 값;}
 	//접근제한자 void 메서드명([매개변수타입 매개변수명, ....]) {	실행문;  }

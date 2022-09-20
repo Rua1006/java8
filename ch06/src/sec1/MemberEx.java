@@ -16,10 +16,10 @@ public class MemberEx {
 		System.out.println("아이디 : "+mem2.getId());
 		System.out.println("비밀번호 : "+mem2.getPassword());
 		
-		Member mem3 = new Member("","");
-		Member mem4 = new Member("1","2","3");
+		Member mem3 = new Member("jdi","kad");
+		Member mem4 = new Member("kkm","강","경","민");
 		System.out.println("당신의 아이디: "+mem3.getId());
-		System.out.println("당신의 주소: "+mem4.getAddress());
+		System.out.println("당신의 사는곳: "+mem4.getAddress());
 		
 		MemberController mc = new MemberController();
 		mc.join("KBS", "1234", "강병수");
