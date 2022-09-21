@@ -1,0 +1,29 @@
+package sec2;
+
+import java.util.Scanner;
+
+public class BoardEx {
+
+	public static void main(String[] args) {
+		BoardEx br1 = new BoardEx();
+		
+		boolean run = true;
+		
+		Scanner sc = new Scanner(System.in);
+		int a =sc.nextInt();
+		
+		switch(a){
+		case 1:
+			System.out.println("[글쓰기]");
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

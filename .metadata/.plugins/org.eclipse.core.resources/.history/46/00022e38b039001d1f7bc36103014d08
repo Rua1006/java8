@@ -1,0 +1,21 @@
+package sec2;
+
+public class BoardEx {
+
+	public static void main(String[] args) {
+		BoardEx br1 = new BoardEx();
+		Scanner sc = new Scanner(System.in);
+		int a=1;
+		int b=2;
+		int c=3;
+		int d=4;
+		
+		 a=sc.nextInt();
+		
+		
+		
+		
+		
+	}
+
+}
