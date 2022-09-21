@@ -1,0 +1,53 @@
+package sec2;
+
+public class Product {
+	String pid;
+	String pname;
+	int amount;
+	int price;
+	String img;
+	
+	public Product(){}
+	public Product(String pid, String pname) {
+		this.pid = pid;
+		this.pname = pname;
+	}
+	public Product(String pid, String pname, int amount, int price) {
+		super();
+		this.pid = pid;
+		this.pname = pname;
+		this.amount = amount;
+		this.price = price;
+	}
+	private String getPid() {
+		return pid;
+	}
+	private void setPid(String pid) {
+		this.pid = pid;
+	}
+	private String getPname() {
+		return pname;
+	}
+	private void setPname(String pname) {
+		this.pname = pname;
+	}
+	private int getAmount() {
+		return amount;
+	}
+	private void setAmount(int amount) {
+		this.amount = amount;
+	}
+	private int getPrice() {
+		return price;
+	}
+	private void setPrice(int price) {
+		this.price = price;
+	}
+	private String getImg() {
+		return img;
+	}
+	private void setImg(String img) {
+		this.img = img;
+	}
+	
+}

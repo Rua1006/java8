@@ -1,0 +1,53 @@
+package sec2;
+
+public class Account {
+	String accountnumber;
+	String accountholder;
+	int	balance;
+	String deposit;
+	
+	public Account(){}
+	
+	public Account(String accountnumber, String accountholder, int balace, String deposit){
+		this.accountnumber=accountnumber; this.accountholder=accountholder; 
+		this.balance=balance; this.deposit=deposit;}
+
+	public String getAccountnumber() {
+		return accountnumber;
+	}
+
+	public void setAccountnumber(String accountnumber) {
+		this.accountnumber = accountnumber;
+	}
+
+	public String getAccountholder() {
+		return accountholder;
+	}
+
+	public void setAccountholder(String accountholder) {
+		this.accountholder = accountholder;
+	}
+
+	public int getBalance() {
+		return balance;
+	}
+
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+
+	public String getDeposit() {
+		return deposit;
+	}
+
+	public void setDeposit(String deposit) {
+		this.deposit = deposit;
+	}
+	public int runDeposit(){
+		int deposit=0;
+		int balance=0;
+		runDeposit=balance+deposit
+	}
+	}
+	
+

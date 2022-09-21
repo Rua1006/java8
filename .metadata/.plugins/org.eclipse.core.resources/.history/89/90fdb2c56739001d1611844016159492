@@ -1,0 +1,14 @@
+package sec2;
+
+public class AccountEX {
+
+	public static void main(String[] args) {
+		Account account = new Account();
+		
+		int deposit = 15000;
+		int balance = 0;
+		
+		account.deposit();
+	}
+
+}

@@ -1,0 +1,11 @@
+package sec2;
+
+public class Product {
+	String pid;
+	String pname;
+	int amount;
+	int price;
+	String img;
+	
+	
+}

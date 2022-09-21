@@ -1,0 +1,15 @@
+package sec2;
+
+public class AccountEX {
+
+	public static void main(String[] args) {
+		Account account = new Account();
+		
+		int deposit = 15000;
+		int balance = 0;
+		
+		account.runDeposit();
+		System.out.println("입금 : "+account.runDeposit());
+	}
+
+}

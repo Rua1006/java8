@@ -1,0 +1,17 @@
+package sec2;
+
+public class Account {
+	String accountnumber;
+	String accountholder;
+	int	balance;
+	String deposit;
+	
+	public Account(){}
+	
+	public Account(String accountnumber, String accountholder, int balace, String deposit){
+		this.accountnumber=accountnumber; this.accountholder=accountholder; 
+		this.balance=balance; this.deposit=deposit;}
+	
+	}
+	
+
