@@ -1,9 +1,0 @@
-package sec2;
-
-public class Board {
-	private int num;
-	private String title;
-	private String text;
-	private String name;
-	private until date date;
-}

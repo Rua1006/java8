@@ -6,14 +6,14 @@ public class Product {
 	private int amount;
 	private int price;
 	private String img;
-	
+
+	//객체생성을 위한 구문
 	public Product(){}
 	public Product(String pid, String pname) {
 		this.pid = pid;
 		this.pname = pname;
-	}
+	}//오버로딩에 의해서 여러개를 둘 수 있음
 	public Product(String pid, String pname, int amount, int price) {
-		super();
 		this.pid = pid;
 		this.pname = pname;
 		this.amount = amount;
@@ -22,7 +22,7 @@ public class Product {
 
 	}
 	public String getPid() {
-		return pid;
+		return pid;	//반환타입
 	}
 	public void setPid(String pid) {
 		this.pid = pid;
@@ -53,11 +53,10 @@ public class Product {
 	}
 	
 	public int calcMoney(){
-		int money=amount*price;
-		return money;
+		return amount*price;		
 	}
 	public String calcRank(){
-		int price=0;
+		/*int price=0;
 		String rank;
 		if(price>=100000){
 			rank="고가";
@@ -66,12 +65,15 @@ public class Product {
 		}else {
 			rank="저가";
 		}
-		return rank;
+		return rank;*/
+		if(price>=100000) return "고가";
+		else if(price>=50000) return "중저가";
+		else  return "저가";
 	} 
 	public void printImg(){
-		this.img=img;
+		System.out.println("이미지:"+img);
 	}
 	public void printProduct(){
 		System.out.println("제품의 아이디"+pid+"제품명"+pname+"제품수량"+amount+"제품가격"+price+"제품이미지"+img);
 	}
-	}
+}
