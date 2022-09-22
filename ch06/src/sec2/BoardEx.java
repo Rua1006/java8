@@ -77,10 +77,16 @@ public class BoardEx {
 		
 }		
 		/*boolean run = true;
+=======
+		
+		
+>>>>>>> Stashed changes
 		while(run){
-			System.out.println("---------------------");
+			System.out.println();
+			System.out.println("--------------------------------");
 			System.out.println("1[글쓰기]\t2[글수정]\t3[글삭제]\t4[글검색]");
-			System.out.println("---------------------");
+			System.out.println("--------------------------------");
+			System.out.println();
 			System.out.print("번호입력 :");
 		Scanner sc = new Scanner(System.in);	
 		BoardEx br1 = new BoardEx();
@@ -88,7 +94,13 @@ public class BoardEx {
 				
 		switch(a){
 		case 1:
+<<<<<<< Updated upstream
 			System.out.print("[글쓰기]");			
+=======
+			System.out.print("[글쓰기]");
+			write=sc.next();
+			System.out.println("작성내용  :"+write);
+>>>>>>> Stashed changes
 			break;
 		case 2:
 			System.out.println("[글수정]");			
