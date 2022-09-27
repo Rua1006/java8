@@ -1,0 +1,13 @@
+package sec4;
+
+public class Student {
+	
+	String schoolname;
+	String bun;
+	String name;
+	int jum1;
+	int jum2;
+	int jum3;
+	
+	//추상화된 메서드 : abstract가 기술되어 있는 메서드로서 반환타입 
+}

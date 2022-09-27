@@ -9,7 +9,7 @@ class E extends C{}
 public class PromotionEx {
 	public static void main(String[] args) {
 	
-		
+		//다형성
 		B b = new B();
 		C c = new C();
 		D d = new D();

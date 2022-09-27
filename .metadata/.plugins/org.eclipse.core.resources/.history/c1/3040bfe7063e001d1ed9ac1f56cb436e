@@ -1,0 +1,21 @@
+package sec3;
+
+public class KumhoTire extends Tire{
+	public KumhoTire(int maxRotaiton, String location){
+		super(maxRotation, location);
+	}
+
+	@Override
+	public boolean roll() {
+		++accumulatedRotation;
+		if(accumulatedRotation<maxRotation){
+			System.out.println(location+"Hankook Tire 수명:"+(maxRotation-accumulatedRotation));
+			return true;
+		} else {
+			System.out.println("***"+location+"Hankook Tire 펑크****");
+			return false;
+		} 
+	}	
+}
+	
+}
