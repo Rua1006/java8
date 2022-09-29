@@ -8,4 +8,8 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="sec3.finalClass1"/>
+<fullyQualifiedTypeName name="sec1.OuterClass.Inner"/>
+<fullyQualifiedTypeName name="sec1.OuterClass"/>
+<fullyQualifiedTypeName name="sec1.OuterClass.Inner2"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 </qualifiedTypeNameHistroy>
