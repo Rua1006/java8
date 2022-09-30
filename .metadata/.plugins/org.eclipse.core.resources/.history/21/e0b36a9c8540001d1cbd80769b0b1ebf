@@ -1,0 +1,9 @@
+package sec2;
+
+public class Student {
+	int sno;
+	String sname;
+	public Student(){}
+	public Student(int sno){this().sno=sno}
+	
+}

@@ -1,0 +1,11 @@
+package sec3;
+
+public class SystemEx3 {
+
+	public static void main(String[] args) {
+		long time1 = System.nanoTime();
+		
+
+	}
+
+}
