@@ -1,8 +1,0 @@
-package sec3;
-
-public class KumhoTire {
-	public KumhoTire(int maxRotaiton, String loaction){
-		super(maxRotation, location);
-	}
-	
-}

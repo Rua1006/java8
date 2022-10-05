@@ -1,0 +1,9 @@
+package sec1;
+//멀티 쓰레드
+public class ThreadEx3 {
+	public static void main(String[] args) {
+
+
+	}
+
+}
