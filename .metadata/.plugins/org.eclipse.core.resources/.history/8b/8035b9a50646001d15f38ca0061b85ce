@@ -1,0 +1,58 @@
+package sec2;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import sec1.Student;
+
+public class ListEx2 {
+	//학생리스트 선언
+	List<Student> sList = new ArrayList<>();
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		boolean ck = true;
+		int i = 0;
+		while(ck){
+		//작업번호 : 1.학생추가, 2.학생검색, 3.학생수정, 4.학생삭제, 5.종료
+		System.out.println("작업 번호 : ");
+		int num = sc.nextInt();
+		Student s = new Student();
+		switch(num){
+			case 1:
+				s.setNum(i);
+				System.out.println("\n학생이름 : ");
+				s.setName(sc.next());
+				System.out.println("\n학생점수 : ");
+				s.setJumsu(sc.nextInt());
+				insert(s);
+				break;
+			case 2:
+				System.out.println("\n검색하려는 학생번호 : ");
+				int bun = sc.nextInt();
+				s = select(bun);
+				System.out.println("학생번호 : "+s.getNum());
+				break;
+			case 3:
+				s.getNum();
+				System.out.println("\n수정을 원하는 학생번호 : ");
+				s.getName();
+				System.out.println("\n이름수정");
+				s.getJumsu();
+				System.out.println("\n점수수정");
+				break;
+			case 4:
+				s.getNum();
+				System.out.println("\n삭제를 원하는 학생번호");
+				break;
+			case 5:
+				break;
+		}
+		
+		}
+	}
+	static void insert(Student s){ //학생추가
+		sList.add(s);
+	}
+	
+}

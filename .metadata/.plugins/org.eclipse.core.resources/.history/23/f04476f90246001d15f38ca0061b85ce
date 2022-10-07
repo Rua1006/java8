@@ -1,0 +1,39 @@
+package sec2;
+
+import java.util.Scanner;
+
+import sec1.Student;
+
+public class ListEx2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		//학생리스트 선언
+		boolean ck = true;
+		while(ck){
+		//작업번호 : 1.학생추가, 2.학생검색, 3.학생수정, 4.학생삭제, 5.종료
+		switch(num){
+			i++;
+			case 1:
+				Student s = new Student();
+				System.out.println("학생이름 :");
+				s.setName(sc.next());
+				insert(s);
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			case 5:
+				break;
+		}
+		}
+	}
+	static void insert(Student e){ //학생추가
+		
+	}
+	static Student select(int i){ //학생검색
+		Scanner sc = new Scanner(System.in);
+	}
+}
