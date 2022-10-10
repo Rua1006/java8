@@ -49,6 +49,5 @@ public class SetEx1 {
 		while(iter.hasNext()){
 			System.out.print(iter.next()+", ");
 
-		}
 	}
 }

@@ -40,12 +40,9 @@ public class MapEx1 {
 		map3.put("d", 80);
 		System.out.println(map3);
 		System.out.println("국어:"+map3.get("b"));
-						
+		
+		
+		
 		//Properties는 항목이름과 값으로 지정
-		map4.setProperty("name", "park");
-		map4.setProperty("kor", "100");
-		map4.setProperty("eng", "80");
-		System.out.println(map4);
-		System.out.println("이름:"+map4.getProperty("name"));
 	}
 }

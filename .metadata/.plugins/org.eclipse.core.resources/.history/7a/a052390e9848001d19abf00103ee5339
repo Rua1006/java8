@@ -8,7 +8,7 @@ import sec1.Student;
 
 public class ListEx2 {
 	//학생리스트 선언
-	static List<Student> sList = new ArrayList<>();
+	List<Student> sList = new ArrayList<>();
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		boolean ck = true;
