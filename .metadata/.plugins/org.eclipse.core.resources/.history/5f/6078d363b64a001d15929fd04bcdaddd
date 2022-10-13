@@ -1,0 +1,12 @@
+package sec4;
+
+public class StudentEx {
+	public static void main(String[] args) {
+		Student1 st1 = new Student1();
+		Student1 st11 = new Student1("김기태",90,80,90);
+		System.out.println("이름\t총점\t평균\t학점\t판정");
+		System.out.println(st11.name+"\t"+st11.calcTot()
+				+"\t"+st11.calcAvg()+"\t"+st11.calcHak()
+				+"\t"+st11.calcRes());
+	}
+}

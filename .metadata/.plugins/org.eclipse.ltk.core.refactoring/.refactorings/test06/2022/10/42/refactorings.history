@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;java06&apos; to &apos;sec3&apos;&#x0D;&#x0A;- Original project: &apos;test06&apos;&#x0D;&#x0A;- Original element: &apos;test06/src/java06&apos;&#x0D;&#x0A;- Renamed element: &apos;test06/src/sec3&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;java06&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;java06" name="sec3" qualified="false" references="true" stamp="1665627906979" textual="false" version="1.0"/>
+</session>

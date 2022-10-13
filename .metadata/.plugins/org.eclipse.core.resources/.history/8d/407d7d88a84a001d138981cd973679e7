@@ -1,0 +1,20 @@
+package java05;
+
+public class Account {
+	private String acnm;
+    private String name;
+    private int money;
+ 
+    public Account(String acnm, String name, int money) {
+        this.acnm = acnm;
+        this.name = name;
+        this.money = money;
+    }
+ 
+    public String getacnm() { return acnm; }
+    public void setacnm(String acnm) { this.acnm = acnm; }
+    public String getname() { return name; }
+    public void setname(String name) { this.name = name; }
+    public int getmoney() { return money; }
+    public void setmoney(int money) { this.money = money; }
+}

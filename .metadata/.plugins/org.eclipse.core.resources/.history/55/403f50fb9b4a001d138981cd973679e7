@@ -1,0 +1,73 @@
+package sec4;
+
+public abstract class Student {
+	String schoolname;
+	String bun;
+	String name;
+	int jum1;
+	int jum2;
+	int jum3;
+	
+	//추상화된 메서드 : abstract 가 기술되어 있는 메서드로서 반환타입, 메서드명, 매개변수 등만 기술되어야 하며,
+	//구현내용은 기술하지 않고, 상속 받는 서브 클래스에서 반드시 구현내용을 기술해야함
+	abstract int computeTot(int jum1, int jum2, int jum3);
+	abstract double computeAvg(int jum1, int jum2, int jum3);
+	//일반 멤버 메서드
+	public String computeHak(int jum1, int jum2, int jum3){
+		int tot = jum1+jum2+jum3;
+		if(tot/3>=90){
+			return "A";
+		} else if(tot/3>=80){
+			return "B";
+		} else if(tot/3>=70){
+			return "C";
+		} else if(tot/3>=60){
+			return "D";
+		} else {
+			return "F";
+		}
+	}
+	
+}
+public class Student {
+	String name;
+	int kor;
+	int eng;
+	int mat;
+	
+	public Student() { }
+	public Student(String name){ this.name = name; }
+	public Student(String name, int kor, int eng, int mat) {
+		this.name = name;		this.kor = kor;
+		this.eng = eng;		this.mat = mat;
+	}
+	
+	public int calcTot(){
+		int tot = kor+eng+mat; 
+		return tot;
+	}
+	public double calcAvg(){
+		double avg = (float) (Math.round((kor+eng+mat)/3*100)/100); 
+		return avg;
+	}
+	public String calHak(){
+		String hak="";
+		double avg = this.calcAvg();
+		if(avg>=90) {
+			hak="A";
+		} else if(avg>=80){
+			hak="B";
+		} else if(avg>=70){
+			hak="C";
+		} else {
+			hak="D";
+		}
+		return hak;
+	}
+	public String calcRes(){
+		double avg = this.calcAvg();
+		String res = "불합격";
+		if(avg>=80) res="합격";
+		return res;
+	}
+}
